@@ -64,35 +64,42 @@ body{
 .user-pic img{
     width: auto;
     height: 100%;
+    /* box-shadow:5px 5px 5px rgb(0, 0, 0); */
 }
 
 .content-right{
     height: 100vh;
     width: 600px;
     background-color: #1b1b1d;
-    border: solid;
+    
     display: flex;
+    flex-direction: column;
     position: relative;
-    left: 340px;
+    left: 390px;
 }
 .about-me p{
     color: white;
     font-size: 70px;
     font-weight: bold;
     border: none;
-    
     margin: 20px;
+    text-align: justify;
 }
-#about-me-content{
+#about-me-content, #group{
     margin: 20px;
-
+    color: #9b9b9b;
     font-size: 18px;
-    font-weight:100;
+    font-weight:450;
+
 }
 
-.about-me hr{
+.about-me hr, .my-service hr{
     margin-left: 20px;
     margin-right: 20px;
-    border: 1px solid #2c2c30;
+    border: 1px solid #313135;
     
+}
+
+.group1{
+    color: white
 }
