@@ -10,7 +10,6 @@ div{
     box-sizing: border-box;
 }
 body{
-    color: white;
     background-color: black;
     font-family: Calibri;
 }
@@ -58,12 +57,42 @@ body{
 .user-pic{
     height: 100vh;
     width: 448px;
-    border-color: white;
     position: fixed;
-    left: 56px;
+    left: 57px;
     
 }
 .user-pic img{
     width: auto;
     height: 100%;
+}
+
+.content-right{
+    height: 100vh;
+    width: 600px;
+    background-color: #1b1b1d;
+    border: solid;
+    display: flex;
+    position: relative;
+    left: 340px;
+}
+.about-me p{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    border: none;
+    
+    margin: 20px;
+}
+#about-me-content{
+    margin: 20px;
+
+    font-size: 18px;
+    font-weight:100;
+}
+
+.about-me hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #2c2c30;
+    
 }
