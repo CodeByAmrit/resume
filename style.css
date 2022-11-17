@@ -68,7 +68,8 @@ body{
 }
 
 .content-right{
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
     width: 600px;
     background-color: #1b1b1d;
     
@@ -82,15 +83,18 @@ body{
     font-size: 70px;
     font-weight: bold;
     border: none;
-    margin: 20px;
+    margin: 5px 20px 8px 20px;
     text-align: justify;
 }
 #about-me-content, #group{
-    margin: 20px;
+    margin: 4px 20px 20px 20px;
     color: #9b9b9b;
     font-size: 18px;
     font-weight:450;
 
+}
+#group{
+    text-align: justify;
 }
 
 .about-me hr, .my-service hr{
@@ -99,7 +103,28 @@ body{
     border: 1px solid #313135;
     
 }
+.div1{
+    display: flex;
+}
+.group1 p, .sub-title{
+    margin-left: 17px;
+    color: white;
+}
 
 .group1{
-    color: white
+    color: white;
+    height: 160px;
+    width: 250px;
+   
+
+}
+.group1 img{
+    padding: 17px;
+    height: 35px;
+    width: 35px;
+}
+.sub-title{
+    font-size: 30px;
+    margin-top: 17px;
+    margin-bottom: 17px;
 }
