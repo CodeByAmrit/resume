@@ -9,24 +9,33 @@
     <title>Resume</title>
 </head>
 <body>
+    <audio id="beep" preload="auto">
+        <source src="sounds/clicked.mp3">
+    </audio>
+    <script>
+        var beepOne = $("#beep")[0];
+        $(".center:active")
+        .mouseenter(function(){
+            beepOne.play();
+        });
+    </script>
     <div class="parent">
-
         <div class="group">
             <div class="side-top">
                 <img src="images/menu.png" alt="menu-btn">
             </div>
             <div class="side-center">
-                <div class="center">
-                    <img src="images/user.png" alt="user">
+                <div class="center" >
+                    <a href="#user"><img src="images/user.png" alt="user"></a>
                 </div>
                 <div class="center">
-                    <img src="images/telephone.png" alt="user">
+                    <a href="#phone"><img src="images/telephone.png" alt="phone"></a>
                 </div>
             <div class="center">
-                <img src="images/work.png" alt="user">
+                <a href="#work"><img src="images/work.png" alt="work"></a>
             </div>
             <div class="center">
-                <img src="images/settings.png" alt="user">
+                <img src="images/settings.png" alt="settings">
             </div>
             <div class="center">
                 <img src="images/user.png" alt="user">
@@ -44,7 +53,7 @@
         <img src="images/amritblack.jpg" alt="user-pic">
     </div>
     <div class="content-right">
-        <div class="about-me">
+        <div id="user" class="about-me">
             <p>Profile Info</p>
             <p id="about-me-content">Creative and detail-oriented graphic designer with exceptional skill level and experience in various mediums, such as vector art, and collages. Highly adept with programs in Adobe suite, such as Photoshop, Illustrator and Corel Draw. </p>
         </div>
@@ -54,7 +63,7 @@
         
         <div class="my-service">
             <hr>
-            <p class="sub-title">Qualification</p>
+            <p   class="sub-title">Qualification</p>
             <div class="div1">
                 
                 <div class="group1">
@@ -90,7 +99,7 @@
         
         <div class="my-service">
             <hr>
-            <p class="sub-title">Contact</p>
+            <p id="phone" class="sub-title">Contact</p>
             <div class="div1">
                 
                 <div class="group1">
@@ -123,7 +132,7 @@
         
         <!-- Work Experience -->
         
-        <div class="my-service">
+        <div id="work" class="my-service">
             <hr>
             <p class="sub-title">Work Experience</p>
             <div class="div1">
