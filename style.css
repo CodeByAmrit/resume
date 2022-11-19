@@ -13,6 +13,11 @@ body{
     background-color: black;
     font-family: Calibri;
 }
+.parent{
+    display: flex;
+    justify-content: center;
+    /* align-items: center ; */
+}
 
 .group{
     background-color: #1b1b1d;
@@ -72,11 +77,10 @@ body{
     height: fit-content;
     width: 600px;
     background-color: #1b1b1d;
-    
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 390px;
+    
 }
 .about-me p{
     color: white;
@@ -95,6 +99,7 @@ body{
 }
 #group{
     text-align: justify;
+
 }
 
 .about-me hr, .my-service hr{
@@ -113,7 +118,7 @@ body{
 
 .group1{
     color: white;
-    height: 160px;
+    height: fit-content;
     width: 250px;
    
 
@@ -127,4 +132,15 @@ body{
     font-size: 30px;
     margin-top: 17px;
     margin-bottom: 17px;
+}
+
+
+/* right content */
+
+.right-content{
+    height: 100vh;
+    width: 380px;
+    position: fixed;
+    right: 0;
+    border: 2px solid white;
 }
