@@ -142,5 +142,16 @@ body{
     width: 380px;
     position: fixed;
     right: 0;
-    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.right-content p{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+
 }
