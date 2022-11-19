@@ -124,6 +124,9 @@ embed {
     text-align: justify;
 
 }
+a{
+    text-decoration: none;
+}
 
 .about-me hr, .my-service hr{
     margin-left: 20px;
@@ -143,8 +146,10 @@ embed {
     color: white;
     height: fit-content;
     width: 250px;
-   
-
+}
+.group1:hover{
+    cursor: pointer;
+    scale: 1.08;
 }
 .group1 img{
     padding: 17px;
