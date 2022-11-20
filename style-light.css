@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html{
+    scroll-behavior:smooth;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+div{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: Calibri;
+}
+
+/* sound effects */
+
+embed {
+    display: none; 
+}
+
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    /* align-items: center ; */
+}
+
+.group{
+    background-color: white;
+    height: 100vh;
+    width: 56px;
+    /* border: 2px solid white; */
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.side-top{
+    width: 56px;
+    height: 56px;
+    border-color: white;
+    background-color:  #58c28d;
+    padding: 17px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.side-top:hover{
+    background-color:  #5ccc94;
+    border-radius: 10px;
+}
+
+.side-center{
+    height: 280px;
+    width: 56px;
+}
+.center, .side-bottom {
+    width: 56px;
+    height: 56px;
+    padding: 17px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.center:hover, .side-bottom:hover{
+    background-color: #5ccc94;
+    border-radius: 10px;
+    transition: 0.4s;   
+}
+.center:hover img{
+    scale: 1.6;
+
+}
+.active{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.user-pic{
+    height: 100vh;
+    width: 448px;
+    position: fixed;
+    left: 57px;
+    
+}
+.user-pic img{
+    width: auto;
+    height: 100%;
+    /* box-shadow:5px 5px 5px rgb(0, 0, 0); */
+}
+
+.content-right{
+    min-height: 100vh;
+    height: fit-content;
+    width: 600px;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.about-me p{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    border: none;
+    margin: 5px 20px 8px 20px;
+    text-align: justify;
+}
+#about-me-content, #group{
+    margin: 4px 20px 20px 20px;
+    color: black;
+    font-size: 18px;
+    font-weight:450;
+
+}
+#group{
+    text-align: justify;
+
+}
+a{
+    text-decoration: none;
+}
+
+.about-me hr, .my-service hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #313135;
+    
+}
+.div1{
+    display: flex;
+}
+.group1 p, .sub-title{
+    margin-left: 17px;
+    color: black;
+}
+
+.group1{
+    color: black;
+    height: fit-content;
+    width: 250px;
+}
+.group1:hover{
+    cursor: pointer;
+    scale: 1.08;
+}
+.group1 img{
+    padding: 17px;
+    height: 35px;
+    width: 35px;
+}
+.sub-title{
+    font-size: 30px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+
+/* right content */
+
+.right-content{
+    height: 100vh;
+    width: 380px;
+    position: fixed;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.right-content p{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
